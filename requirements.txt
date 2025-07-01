@@ -1,3 +1,12 @@
 python-dotenv
 pandas
 numpy
+pymongo
+certifi
+
+
+# -e . 
+# -e . is used to install the package in editable mode, allowing changes to be reflected without reinstalling
+#try to use pip install -r requirements.txt to get the metadata and dependencies folder
+# comment -e .  where you project is completely ready
+# it helps to triger the setup.py file and install the package in editable mode
